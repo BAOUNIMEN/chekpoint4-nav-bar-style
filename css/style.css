@@ -1,0 +1,59 @@
+*{
+   margin:0px;
+   padding:0px;
+   box-sizing:border-box;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwxAHvSMZ46CyHUJFQMKXUATqAlVv_lGFxsNNNFhmPLw&s)  ;
+    background-repeat: no-repeat; */
+    background: no-repeat url(https://media.istockphoto.com/id/467367026/photo/perfect-sky-and-ocean.jpg?s=612x612&w=0&k=20&c=LZYFRxIhuKQom3l-kR3TLN7GikSJYJz9NRglQ3nngBw=);
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwxAHvSMZ46CyHUJFQMKXUATqAlVv_lGFxsNNNFhmPLw&s') no-repeat; */
+    height: 125vh;
+    background-size: cover;
+    background-position:center;
+   
+}
+header {
+    width: 100%;
+    /* height: 75px; */
+     display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 30px 10%;
+    background: rgba(3, 3, 3, 0);
+}
+
+
+nav li{
+    display: inline-block;
+    list-style: none;
+    margin-bottom:50PX ;
+    padding: 8px 20px;
+   /* float: right;  */
+}
+
+
+
+a,button{
+    
+    font-size: 16px;
+    font-weight: 500;
+    color:#140c0c;
+    text-decoration: none;
+    cursor: pointer;
+}
+button{
+    background: burlywood;
+    border: 2px solid #fd5e53;
+    border-radius: 50px;
+    padding: 9px 25px;
+}
+nav li a:hover{
+    color: #fd5e53;
+    transition: all 0.4s ease 0s;
+}
+/* iframe{
+    font-size: 50vh;
+    font-weight: 50vh;
+} */
